@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>EXERCICE 2</title>
+</head>
+
+<body>
+    <p> Test </p>
+    <label for="taille">Couleur</label>
+    <input type="color" id="color" name="color" onchange="changeColor();"> </input>
+    <label for="taille"> Taille de l'écriture :</label>
+    <input type="number" id="taille" name="taille" onchange="changePolice();"> </input>
+    <b>||</b>
+    <label for="police"> Police</label>
+    <select id="police" name="police" onchange="changeFont();">
+        <option value="Garamond">Garamond</option>
+        <option value="Verdana">Verdana</option>
+        <option value="Times New Roman">Times New Roman</option>
+    </select>
+    <script src="Exercice2.js"></script>
+</body>
+
+</html>
